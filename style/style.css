@@ -1,0 +1,36 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.logo {
+    height: 250px;
+    /*width: 70%;*/
+    text-align: center;
+    margin:auto;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+
+.topnav a {
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    margin:auto;
+    position: relative;
+}
+
+.topnav a:hover{
+    text-decoration: underline;
+}
+
+.currentPage {
+    text-decoration: underline;
+}
